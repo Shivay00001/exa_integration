@@ -1,0 +1,26 @@
+{
+    "notice": "Replace YOUR_API_KEY with your actual Exa API key in the configurations below.",
+    "cursor_or_claude_code_config": {
+        "mcpServers": {
+            "exa": {
+                "type": "http",
+                "url": "https://mcp.exa.ai/mcp?exaApiKey=YOUR_API_KEY",
+                "headers": {}
+            }
+        }
+    },
+    "claude_desktop_local_config": {
+        "mcpServers": {
+            "exa": {
+                "command": "npx",
+                "args": [
+                    "-y",
+                    "exa-mcp-server"
+                ],
+                "env": {
+                    "EXA_API_KEY": "YOUR_API_KEY"
+                }
+            }
+        }
+    }
+}

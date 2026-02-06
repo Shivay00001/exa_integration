@@ -1,0 +1,5 @@
+exa-py
+openai
+anthropic
+python-dotenv
+pypdf
