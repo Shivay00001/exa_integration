@@ -2,6 +2,8 @@
 
 This directory contains examples for using the Exa API for web search and function calling.
 
+**Note:** Personal job-application drafts (`my_applications/`), the author's CV (`my_cv.pdf`), and a local run log have been removed from the repo (backed up privately). What remains is the reusable integration code: Exa search + function-calling examples for OpenAI and Anthropic, plus a generic job-search and job-application agent.
+
 ## Setup
 
 1. **Install Dependencies**
@@ -49,7 +51,7 @@ python job_search.py
 
 To run the **Job Application Agent**:
 
-1. Place your CV as `my_cv.pdf` in the `exa_integration` folder (I've already copied your test resume there).
+1. Place your CV as `my_cv.pdf` in the `exa_integration` folder (this file is git-ignored; keep your own CV local, never commit it).
 2. Ensure you have `OPENAI_API_KEY` in your `.env` for AI generation (otherwise it uses a placeholder).
 3. Run:
 
