@@ -1,5 +1,7 @@
 # Exa API Integration Examples
 
+Built by [VisionQuantech](https://visionquantech.com) — AI agents, apps & tools for small businesses.
+
 This directory contains examples for using the Exa API for web search and function calling.
 
 **Note:** Personal job-application drafts (`my_applications/`), the author's CV (`my_cv.pdf`), and a local run log have been removed from the repo (backed up privately). What remains is the reusable integration code: Exa search + function-calling examples for OpenAI and Anthropic, plus a generic job-search and job-application agent.
